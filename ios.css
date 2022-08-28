@@ -194,5 +194,6 @@ footer {
   line-height: 1.4;
   color: var(--buttoncolor);
   text-decoration: none;
+  cursor: pointer;
 }
 .button-link:hover { background-color: #ffc30b; }
