@@ -40,6 +40,7 @@ body {
   display: grid;
   grid-template-areas:
     "img title"
+    "img title2"
     "img subtitile";
   width: 380px;
   column-gap: 20px;
@@ -105,7 +106,14 @@ body {
   grid-area: title;
   align-items: center;
 }
-
+.header__title2 {
+   color: var(--subtext);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 10;
+  grid-area: title2;
+}
 .header__subtitle {
   color: var(--subtext);
   font-weight: 400;
